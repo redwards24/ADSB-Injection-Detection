@@ -99,7 +99,7 @@ def simple_3_layer_1d_cnn(
         input_shape, 
         nb_classes,
         filters: tuple[int, int, int] = (32, 64, 128),
-        kernals: tuple[int, int, int] = (2, 2, 2),
+        kernals: tuple[int, int, int] = (3, 3, 3),
         units: tuple[int, int, int] = (512, 256, 128)
 ):
     X_input = keras.layers.Input(input_shape)
@@ -124,7 +124,7 @@ def simple_6_layer_1d_cnn(
         input_shape, 
         nb_classes,
         filters: tuple[int, int, int] = (32, 64, 128),
-        kernals: tuple[int, int, int] = (2, 2, 2),
+        kernals: tuple[int, int, int] = (3, 3, 3),
         units: tuple[int, int, int] = (512, 256, 128)
 ):
     X_input = keras.layers.Input(input_shape)
