@@ -6,4 +6,9 @@ Java 21 was used for the collection of authentic data.
 The project is setup as a series of scripts
 The scripts should be ran in the order:
 1. Main
-2. 
+2. Combine
+3. Attack
+4. CreateAirportSets
+5. CreateTrainingSet
+
+
