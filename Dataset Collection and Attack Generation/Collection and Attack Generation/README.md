@@ -21,3 +21,6 @@ Attack.java is used to perform PM, GI, and VD attacks on the complete sets. Simi
 CreateAirportSets.java is used to combine the authentic and attack samples into a singular, airport specific file.
 
 CreateTrainingSet.java is used to combine the authentic and attack samples from every airport into a single file.
+
+## Dataset Attacks
+Python 3.13 was used when generating the attacks on the authentic samples. The three attack files can be found in the python folder. PM.py is for path modification, GI.py for ghost injection, and VD.py for velocity drift. The java scripts are setup to call these files to automatically generate the attacks.
