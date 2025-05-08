@@ -4,6 +4,14 @@ import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.List;
 
+import opensky.StateVectorIO;
+import opensky.StateVectorList;
+import util.Airport;
+
+
+/**
+ * Combines authentic and attack samples into a single file by airport.
+ */
 public class CreateAirportSets {
 
 	public static void main(String[] args) {

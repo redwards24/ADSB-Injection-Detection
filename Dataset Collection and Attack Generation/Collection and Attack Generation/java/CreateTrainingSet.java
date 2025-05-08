@@ -7,6 +7,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
+/**
+ * Combines authentic and attack airport sets into a single training set.
+ */
 public class CreateTrainingSet {
 	
 	public static void main(String[] args) {

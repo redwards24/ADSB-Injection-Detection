@@ -7,7 +7,21 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+import opensky.StateVector;
+import opensky.StateVectorIO;
+import opensky.StateVectorList;
+import opensky.Trino;
+import util.Airline;
+import util.Airport;
 
+/**
+ * Start of Collection Process
+ * 
+ * This file will:
+ *     1. Query OpenSky
+ *     2. Filter Airport, 
+ *     3. 
+ */
 public class Main {
      
 	//

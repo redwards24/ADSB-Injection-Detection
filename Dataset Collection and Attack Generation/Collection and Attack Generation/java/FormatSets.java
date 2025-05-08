@@ -3,6 +3,10 @@ import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.List;
 
+import opensky.StateVector;
+import opensky.StateVectorIO;
+import opensky.StateVectorList;
+
 /**
  * Script to write specific columns to a csv file.
  */

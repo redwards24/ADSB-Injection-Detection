@@ -3,6 +3,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
 
+import opensky.StateVectorIO;
+import opensky.StateVectorList;
+
+
+/**
+ * Combines the randomly selected authentic samples by airport.
+ */
 public class Combine {
 
 	

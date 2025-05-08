@@ -12,6 +12,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+import opensky.StateVectorIO;
+import opensky.StateVectorList;
+
 public class Attack {
 
     static String attack(final File file, final String type, final String folder) {
